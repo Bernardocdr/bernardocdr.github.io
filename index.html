@@ -7,13 +7,15 @@
     <style>
 
       h3 {
-        color:greenyellow
+        color:black
       }
 
       body {
-        background-color: rgb(255,400,200);
+        background-color: #82D173;
       }
-
+      img {
+        border-radius: 0%;
+      }
     </style>
 
   </head>
@@ -22,22 +24,32 @@
 
       <!--Index-->
         <h3>Index</h3>
-
+          <ul>
+            <li><a href="#sobremim">Sobre mim</a></li>
+            <li><a href="#listskill">Lista de Habilidades</a></li>
+          </ul>
 
       <!--Nome completo e Foto (Lembrar de trocar)--> 
+        <h3 id="sobremim">Sobre mim</h3>
           <p>Nome Completo: Bernardo Coutinho Dionysio da Rocha</p>
-          <img src="Foto.jpg" width="300" alt="Imagem de Bernardo Coutinho, dono deste portfólio.">   
+          <img src="Foto.jpg" id="foto" width="300" class="img" alt="Imagem de Bernardo Coutinho, dono deste portfólio.">   
 
-      <!--Index-->
+
       <!--Sobre Mim e Lista de Habilidades-->
-          <p>Bernardo, 21 anos<br>
-          Brasileiro, nascido no Rio de Janeiro</p>
-        <h3>Lista de Habilidades</h3>
+          <p>Sobre mim: 21 anos, brasileiro, nascido no Rio de Janeiro.</p>
+
+        <h3 id="listskill">Lista de Habilidades</h3>
         <ul>
           <li>Git</li>
           <li>Shell</li>
   <strong><li>HTML</li></strong>
           <li>Lógica de Programação</li>
-      </ul>
+        </ul>
+
+
+      <!--Demais Requisitos-->
+        <p><a href="#foto">Link interno para a foto</a></p>
+        <p><a href="https://myanimelist.net/animelist/Bernardocdr" target="blank">Link para a minha Anime List</a></p>
+
   </body>
 </html>
