@@ -6,14 +6,35 @@ body {
   background-color: #82D173;
 }
 
-img {
-  border-radius: 10%;
+.nome {
+  text-align: center;
+  height: 100px;
 }
 
-#descricao{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.nome h1 {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.aboutme {
+  height:300px;
+}
+
+
+#sobremim-texto {
+  float: right;
+  font-family:'Times New Roman', Times, serif;
 } 
 
-#nome{
-  font-family:'Times New Roman', Times, serif;
+.aboutme img{
+  float:left;
+  border-radius: 10%;
+  height: 300px;
+}
+
+.aboutme em {
+  font-style:italic;
+}
+
+div {
+  border: 2px solid yellow;
 }
