@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=1EA418FF&lines=Seja+bem+vindo!)](https://git.io/typing-svg)
 
@@ -8,6 +8,6 @@
 </div>
 
 
-<div align="center">
+<div align="left">
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bernardocdr&layout=compact&langs_count=7&theme=dark" />
 </div>
